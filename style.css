@@ -3,8 +3,16 @@
     margin: 0;
 }
 
+#masthead {
+    position: absolute;
+  top: 1%;
+  right: 3%;
+  width: 40%;
+}
+
 article{
     width: 100%;
+    
 }
 
 header {
@@ -15,8 +23,6 @@ header {
     width: 100%;
     background-position-x: center;
     margin-bottom: 4%;
-    
-    
 }
 
 h1 {
@@ -24,7 +30,7 @@ h1 {
     color: azure;
     width: 100%;
     text-align: center;
-    top: 5%;
+    top: 17%;
     position: relative;
 }
 
@@ -32,21 +38,33 @@ header p {
     color: azure;
     width: 85%;
     text-align: center;
-    top: 10%;
+    top: 19%;
     position: relative;
     margin: auto;
     line-height: 1.4;
-    
+}
+
+p {
+    width: 96%;
+    margin: 2% 2%;
 }
 
 .picContainer {
-    width: 100%;
+    width: 96%;
+    margin: 5% 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 2em;
+    width: 96%;
+    margin: 1.5% 2%;
 }
 
 .picContainer img {
     width: 100%;
     height: auto;
 }
+
 
 /*View for tablets*/
 @media (min-width:479px) {
@@ -58,6 +76,12 @@ header p {
     margin-bottom: 2%;
     }
 
+    #masthead {
+      top: 3%;
+      right: 3%;
+      width: 35%;
+    }
+
     h1 {
         font-size: 6em;
 
@@ -67,6 +91,24 @@ header p {
         font-size: 2em;
         line-height: 1.2;
         top: 20%
+    }
+
+    p {
+        width: 70%;
+        margin: auto;
+        font-size: 1.5em;
+        margin-bottom: 3%;
+    }
+
+    h2 {
+        font-size: 3em;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 3%;
+    }
+
+    figcaption {
+        font-size: 1.3em;
     }
 
 }
@@ -81,6 +123,12 @@ header p {
         margin-bottom: 1%;
     }
 
+    #masthead {
+        top: 3%;
+        right: 1%;
+        width: 20%;
+      }
+
     h1 {
         font-size: 8em;
         top: 15%;
@@ -92,5 +140,8 @@ header p {
         width: 80%;
         top: 25%;
     }
+
+  
+    
 
 }
