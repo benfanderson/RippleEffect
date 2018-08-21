@@ -26,22 +26,24 @@ header {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     color: azure;
     width: 100%;
     text-align: center;
-    top: 10%;
+    top: 8%;
     position: relative;
+    font-family: 'Cinzel', serif;
 }
 
 header p {
     color: azure;
-    width: 87%;
+    width: 90%;
     text-align: center;
-    top: 13%;
+    top: 10%;
     position: relative;
     margin: auto;
     line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -67,6 +69,7 @@ h2 {
     font-size: 2em;
     width: 96%;
     margin: 1.5% 2%;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .picContainer img {
@@ -83,13 +86,15 @@ figcaption {
 @media (min-width:350px) {
 
     h1 {
-        font-size: 2.7em;
-        top: 17%;
+        font-size: 2.3em;
+        top: 18%;
+        /* font-size: 2em;
+        top: 8%; */
     }
     
     header p {
-        width: 85%;
-        top: 19%;
+        width: 87%;
+        top: 23%;
     }
 
 }
